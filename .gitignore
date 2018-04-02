@@ -12,6 +12,14 @@
 node_modules/
 .tmp/
 
+
+# VS Code Editor Files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
 # OS or Editor folders
 .DS_Store
 Thumbs.db
