@@ -14,7 +14,7 @@ node_modules/
 
 
 # VS Code Editor Files
-.vscode/*
+.vscode/
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
