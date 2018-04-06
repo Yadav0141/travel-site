@@ -6,6 +6,7 @@
     &__b-margin-until-medium{
        margin-bottom: 1rem; 
     }
+     
     @mixin atMedium{
           &__medium-4{
             float: left;
@@ -14,6 +15,10 @@
 
         &__medium-4--larger{
             width: 37%;
+        }
+        &__medium-6{ 
+            float: left;
+            width:50%;
         }
         &__medium-8{
             float: left;
@@ -39,5 +44,12 @@
       
     }
 
-   
+    &--gutters-large{
+        margin-right: -100px;
+    }
+
+    &--gutters-large > div{
+        padding-right: 100px;
+    }
+
 } 
